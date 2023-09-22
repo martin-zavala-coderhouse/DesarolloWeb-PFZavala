@@ -77,3 +77,25 @@ footer {
 #caracteristicas h2 {
     font-size: 28px;
 }
+
+
+.servicios {
+    background-color: rgb(180, 119, 237);
+    color: white;
+}
+
+
+.titulo {
+padding-top: 40px;
+text-align: center;
+}
+
+.titulo h1 {
+    font-size: 56px;
+}
+
+
+.row {
+    margin-right: none; !important
+    margin-left: none; !important
+}
