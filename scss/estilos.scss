@@ -72,6 +72,15 @@ footer {
     text-align: justify;
 }
 
+/* Estilos para pantallas de 768px o menos */
+@media (max-width: 576px) {
+    /* Aplicar un tamaño de fuente de 20px a todos los elementos */
+    #hero {
+      font-size: 19px;
+      text-align: left;
+    }
+  }
+
 
 #caracteristicas {
     h3 {
