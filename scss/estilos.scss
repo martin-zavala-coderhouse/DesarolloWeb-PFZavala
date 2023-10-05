@@ -1,0 +1,111 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Karla&display=swap');
+
+
+
+
+
+* {
+    font-family: 'Karla', sans-serif;
+
+
+}
+
+.fondoMenu {
+    background-color: rgb(37, 27, 154);
+}
+/* empato por especificidad a bootstrap y ahora, por cascada, porque éste archivo CARGA despues de bootstrap, ganará esta regla */
+.navbar-light .navbar-nav .nav-link {
+color: white;
+
+&:hover {
+    background-color: rgb(54, 151, 172);
+    color: rgb(255, 255, 255);
+    border-radius: 10px;
+
+}
+}
+
+
+img-fluid {
+    max-width: 100px;
+}
+
+.active {
+    background-color: rgb(242, 232, 198);
+}
+.navbar-collapse {
+    flex-grow: 0;
+}
+ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+.bi-facebook {
+    font-size: 40px;
+    color: rgb(31, 57, 151)
+}
+
+#caracteristicas {
+    padding: 20px;
+    background-color: rgb(17, 183, 195);
+    text-align: center;
+    color: white;
+}
+
+footer {
+     background-color: rgb(35, 149, 88);
+     color: white;
+}
+
+
+
+#hero {
+    background-color: rgb(129, 172, 238);
+    color: white;
+    padding-top: 30px;
+    padding-left: 8%;
+    padding-right: 8%;
+    padding-bottom: 30px;
+    font-size: 25px;
+    text-align: justify;
+}
+
+
+#caracteristicas {
+    h3 {
+      font-size: 25px;
+    }
+  
+    h2 {
+      font-size: 28px;
+    }
+  }
+
+
+.servicios1{
+    background-color: rgb(180, 119, 237);
+    color: white;
+}
+
+.servicios2{
+    background-color: rgb(126, 81, 169);
+    color: white;
+}
+.titulo {
+padding-top: 40px;
+text-align: center;
+
+
+h1 {
+    font-size: 56px;
+}
+}
+
+
+.row{
+    text-align: center;
+
+}
+
