@@ -146,4 +146,23 @@ footer {
   color: white;
 }
 
+footer a {
+  text-decoration: none; /* Elimina el subrayado */
+  color: white;
+}
+
+.contenido {
+  background-color: mediumaquamarine;
+}
+.contenido img {
+  max-width: 1000px;
+  text-align: center;
+  display: block;
+  margin: 0 auto;
+}
+
+.gracias {
+  background-color: blueviolet;
+}
+
 /*# sourceMappingURL=estilos.css.map */
