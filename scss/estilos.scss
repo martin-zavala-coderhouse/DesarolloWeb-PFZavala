@@ -113,7 +113,7 @@ h1 {
 }
 
 
-.row{
+.row {
     text-align: center;
 
 }
@@ -136,7 +136,7 @@ h1 {
 
 
 .scale-in-center {
-	animation: scale-in-center 4s cubic-bezier(0.250, 0.460, 0.450, 0.940) 2s both;
+	animation: scale-in-center 1s cubic-bezier(0.250, 0.460, 0.450, 0.940) 0.5s both;
 }
 
 
@@ -192,15 +192,140 @@ footer a {
 
 
     img {
-        max-width: 1000px;
-        text-align: center;
-        display: block;
-        margin: 0 auto;
-      }
+    max-width: 700px;
+    text-align: center;
+    display: block;
+    margin: 0 auto;
 
+    @media (max-width: 575px) {
+      max-width: 200px; // Extra Small (menos de 576px)
     }
 
+    @media (min-width: 576px) {
+      max-width: 400px; // Small (576px o más)
+    }
+
+    @media (min-width: 768px) {
+      max-width: 500px; // Medium (768px o más)
+    }
+
+    @media (min-width: 992px) {
+      max-width: 600px; // Large (992px o más)
+    }
+
+    @media (min-width: 1200px) {
+      max-width: 700px; // Extra Large (1200px o más)
+    }
+  }
+}
 
     .gracias {
         background-color: blueviolet;
+        text-align: center;
+        color: white;
     }
+
+
+
+    .center-label {
+        display: flex;
+        justify-content: center; /* Centra horizontalmente */
+      }
+
+
+.fondopadre {
+    background-color: violet;
+}
+
+
+
+     .fondo {
+        background-color: violet
+      }
+
+
+      .form-control::placeholder {
+  color: green;
+  opacity: 1;
+}
+
+
+.form-control:focus::placeholder {
+    color: purple;
+    opacity: 1;
+}
+
+
+
+.form-control {
+    color: orange
+  }
+
+.form-control:focus {
+  color: orange
+}
+
+
+.nosotros {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  height: 300px; /* You can adjust this as needed for your design */
+}
+
+.primero2 {
+margin: auto;
+color: white;
+}
+
+
+.servicios8 {
+  background-color: green;
+}
+
+
+.videoyoutube {
+  background-color: purple;
+  text-align: center;
+  font-size: 20px;
+}
+
+
+
+.video7 {
+  background-color: blue;
+}
+
+
+
+
+@media (max-width: 768px) {
+  .videoyoutube {
+  font-size: 15px;
+}
+
+}
+
+
+
+
+.video7 {
+  text-align: center; /* Centra el contenido horizontalmente */
+}
+
+
+
+iframe {
+ width: 700px;
+ height: 400px;
+}
+
+
+/* Utiliza una media query para ajustar el tamaño del iframe en pantallas más pequeñas */
+@media (max-width: 768px) {
+  iframe {
+    width: 300px;
+    height: auto; /* Ajusta la altura automáticamente para mantener la proporción original */
+  }
+}
