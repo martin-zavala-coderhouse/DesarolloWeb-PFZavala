@@ -2,7 +2,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Karla&display=swap');
 
 
-
+/* Variables */
+$color-blanco: #ffffff;
+$color-rosado: #f01dc3;
 
 
 * {
@@ -10,6 +12,10 @@
 
 
 }
+
+
+
+
 
 .fondoMenu {
     background-color: rgb(37, 27, 154);
@@ -20,7 +26,7 @@ color: white;
 
 &:hover {
     background-color: rgb(54, 151, 172);
-    color: rgb(255, 255, 255);
+    color: $color-blanco;
     border-radius: 10px;
 
 }
@@ -51,19 +57,19 @@ ul {
     padding: 20px;
     background-color: rgb(17, 183, 195);
     text-align: center;
-    color: white;
+    color: $color-blanco;
 }
 
 footer {
      background-color: rgb(35, 149, 88);
-     color: white;
+     color: $color-blanco;
 }
 
 
 
 #hero {
     background-color: rgb(129, 172, 238);
-    color: white;
+    color: $color-blanco;
     padding-top: 30px;
     padding-left: 8%;
     padding-right: 8%;
@@ -95,13 +101,15 @@ footer {
 
 .servicios1{
     background-color: rgb(180, 119, 237);
-    color: white;
+    color: $color-blanco;
 }
 
 .servicios2{
     background-color: rgb(126, 81, 169);
-    color: white;
+    color: $color-blanco;
+
 }
+    
 .titulo {
 padding-top: 40px;
 text-align: center;
@@ -169,19 +177,19 @@ h1 {
 
   .programas1{
     background-color: rgb(133, 97, 226);
-    color: white;
+    color: $color-blanco;
 }
 
 .programas2{
     background-color: rgb(227, 82, 232);
-    color: white;
+    color: $color-blanco;
 }
 
 
 
 footer a {
     text-decoration: none; /* Elimina el subrayado */
-    color: white
+    color: $color-blanco;
   }
 
 
@@ -222,7 +230,7 @@ footer a {
     .gracias {
         background-color: blueviolet;
         text-align: center;
-        color: white;
+        color: $color-blanco;
     }
 
 
@@ -234,13 +242,13 @@ footer a {
 
 
 .fondopadre {
-    background-color: violet;
+    background-color: $color-rosado;
 }
 
 
 
      .fondo {
-        background-color: violet
+        background-color: $color-rosado;
       }
 
 
@@ -328,4 +336,33 @@ iframe {
     width: 300px;
     height: auto; /* Ajusta la altura automáticamente para mantener la proporción original */
   }
+}
+
+
+
+
+
+
+
+.centrar-h1 {
+  text-align: center; 
+
+    .mitad {
+      text-align: center;
+      color: rgb(21, 163, 57);
+      display: inline-block;
+
+
+  }
+}
+
+
+/* o utilizar   <b> element defines bold text, without any extra importance. Example. <b>This text is bold</b>
+
+*/
+
+
+.destacar {
+  font-weight: bold;
+  color: blue;
 }

@@ -1,5 +1,6 @@
 @charset "UTF-8";
 @import url("https://fonts.googleapis.com/css2?family=Karla&display=swap");
+/* Variables */
 * {
   font-family: "Karla", sans-serif;
 }
@@ -14,7 +15,7 @@
 }
 .navbar-light .navbar-nav .nav-link:hover {
   background-color: rgb(54, 151, 172);
-  color: rgb(255, 255, 255);
+  color: #ffffff;
   border-radius: 10px;
 }
 
@@ -45,17 +46,17 @@ ul {
   padding: 20px;
   background-color: rgb(17, 183, 195);
   text-align: center;
-  color: white;
+  color: #ffffff;
 }
 
 footer {
   background-color: rgb(35, 149, 88);
-  color: white;
+  color: #ffffff;
 }
 
 #hero {
   background-color: rgb(129, 172, 238);
-  color: white;
+  color: #ffffff;
   padding-top: 30px;
   padding-left: 8%;
   padding-right: 8%;
@@ -81,12 +82,12 @@ footer {
 
 .servicios1 {
   background-color: rgb(180, 119, 237);
-  color: white;
+  color: #ffffff;
 }
 
 .servicios2 {
   background-color: rgb(126, 81, 169);
-  color: white;
+  color: #ffffff;
 }
 
 .titulo {
@@ -138,17 +139,17 @@ footer {
 }
 .programas1 {
   background-color: rgb(133, 97, 226);
-  color: white;
+  color: #ffffff;
 }
 
 .programas2 {
   background-color: rgb(227, 82, 232);
-  color: white;
+  color: #ffffff;
 }
 
 footer a {
   text-decoration: none; /* Elimina el subrayado */
-  color: white;
+  color: #ffffff;
 }
 
 .contenido {
@@ -189,7 +190,7 @@ footer a {
 .gracias {
   background-color: blueviolet;
   text-align: center;
-  color: white;
+  color: #ffffff;
 }
 
 .center-label {
@@ -198,11 +199,11 @@ footer a {
 }
 
 .fondopadre {
-  background-color: violet;
+  background-color: #f01dc3;
 }
 
 .fondo {
-  background-color: violet;
+  background-color: #f01dc3;
 }
 
 .form-control::placeholder {
@@ -270,6 +271,22 @@ iframe {
     width: 300px;
     height: auto; /* Ajusta la altura automáticamente para mantener la proporción original */
   }
+}
+.centrar-h1 {
+  text-align: center;
+}
+.centrar-h1 .mitad {
+  text-align: center;
+  color: rgb(21, 163, 57);
+  display: inline-block;
+}
+
+/* o utilizar   <b> element defines bold text, without any extra importance. Example. <b>This text is bold</b>
+
+*/
+.destacar {
+  font-weight: bold;
+  color: blue;
 }
 
 /*# sourceMappingURL=estilos.css.map */
